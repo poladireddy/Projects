@@ -24,6 +24,7 @@ while True:
     layerOutputs = net.forward(output_layers_names)
 # else:
 #     print("not detected")
+    bixes = []
     confidences = []
     class_ids = []
 
